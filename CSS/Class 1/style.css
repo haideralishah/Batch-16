@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1,
+h2 {
+    /* propertyName: value; */
+    color: red;
+    background-color: yellow;
+}
+
+p,
+h3 {
+    color: blue;
+    background-color: gainsboro;
+}
