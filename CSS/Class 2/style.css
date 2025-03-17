@@ -1,0 +1,126 @@
+/* 
+    color
+    background-color
+    font-family
+    width
+    height
+
+    Universal Selector
+    Type Selector
+    ID Selector
+    Class selector
+*/
+
+
+/* * {
+    background-color: aquamarine;
+}
+
+h1,
+p {
+    color: red;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+}
+
+#cancer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+p.odd-para,
+#cancer {
+    color: green;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+}
+
+i {
+    color: green;
+}
+
+i {
+    color: red;
+}
+
+b {
+    color: pink;
+}
+
+p b {
+    color: blue !important;
+}
+
+p b {
+    color: violet;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: darkgoldenrod;
+}
+
+.page {
+    border: 1px solid gold;
+    background-color: white;
+    /* padding: inherit; */
+}
+
+h1 {
+    border: inherit;
+    background-color: bisque;
+}
