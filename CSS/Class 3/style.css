@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#container {
+    background-color: beige;
+}
+
+.main-para {
+    font-family: 'Courier New', Courier, monospace;
+    /* text-decoration: underline; */
+}
+
+
+li>a {
+    color: red;
+    text-decoration: none;
+}
+
+
+/* #container>a {
+    background-color: aquamarine;
+} */
+
+#container a {
+    background-color: aliceblue;
+}
