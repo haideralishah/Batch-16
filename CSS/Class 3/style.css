@@ -8,11 +8,17 @@ body {
 
 #container {
     background-color: beige;
+
+    border: 20px solid red;
+    padding: 50px;
 }
 
 .main-para {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     /* text-decoration: underline; */
+    background-color: aqua;
+    text-align: left;
+    margin: 5px;
 }
 
 
@@ -28,4 +34,10 @@ li>a {
 
 #container a {
     background-color: aliceblue;
+}
+
+
+li {
+    list-style-type: none;
+    display: inline;
 }
