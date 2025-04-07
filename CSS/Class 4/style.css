@@ -1,0 +1,60 @@
+/*
+h1, p
+
+h1 > p
+
+h1  p
+
+h1 + p
+
+h1 ~ p
+
+*/
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+.special {
+    font-size: 20px;
+}
+
+#heading {
+    text-decoration: underline;
+    color: brown;
+}
+
+
+div>a {
+    color: red;
+}
+
+div a {
+    text-decoration: none;
+    /* background-color: cadetblue; */
+}
+
+h2+p {
+    color: burlywood;
+}
+
+h2+a {
+    color: greenyellow;
+}
+
+h2~p {
+    border: 1px solid red;
+}
+
+
+#heading {
+    /* color: rgb(141, 198, 63); */
+
+    color: #0fa89e;
+
+}
