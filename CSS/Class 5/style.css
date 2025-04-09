@@ -1,4 +1,7 @@
-/* #ed1a24 */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 .heading{
@@ -7,4 +10,20 @@
     text-align: center;
     padding: 18px;
     margin: 31px;
+}
+
+.nav-container > li {
+    display: inline;
+}
+
+.nav-container > li > a{
+    text-decoration: none;
+    color: #ed1a24;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+a{
+    color:#24b251;  
+    margin-left: 41px; 
 }
