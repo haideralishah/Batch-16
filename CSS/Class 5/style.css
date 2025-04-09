@@ -1,10 +1,10 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
-.heading{
+.heading {
     border: 7px solid #ed1a24;
     color: #24b251;
     text-align: center;
@@ -12,18 +12,29 @@
     margin: 31px;
 }
 
-.nav-container > li {
+.nav-container>li {
     display: inline;
 }
 
-.nav-container > li > a{
+.nav-container>li>a {
     text-decoration: none;
     color: #ed1a24;
     text-transform: uppercase;
     margin-left: auto;
 }
 
-a{
-    color:#24b251;  
-    margin-left: 41px; 
+a {
+    color: #24b251;
+    margin-left: 41px;
+}
+
+.product {
+    border: 1px solid lightgray;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;  
+}
+
+.product>img {
+    width: 100%;
 }
