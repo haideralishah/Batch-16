@@ -1,0 +1,33 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* 
+.container {
+    font-size: 10px;
+}
+
+.container>h2 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 120%;
+} */
+
+
+
+
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 0.75em;
+}

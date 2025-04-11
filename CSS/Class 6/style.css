@@ -1,0 +1,19 @@
+/*
+hexcode
+rgb()
+colorname
+*/
+h1 {
+    /* color: rgba(255, 0, 0, 1);
+    background-color: rgba(0, 255, 255, 0.5); */
+    /* opacity: 0.5; */
+
+
+    color: hsl(150, 100%, 20%);
+    background-color: hsla(150, 0%, 100%, 1);
+}
+
+.container {
+    background-color: brown;
+    padding: 10px;
+}
