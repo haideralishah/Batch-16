@@ -1,101 +1,59 @@
-/* @font-face {
+@font-face {
     font-family: alexbrush;
-    src: url("assets/fonts/alex-brush/AlexBrush-Regular.ttf");
+    src: url('assets/fonts/alex-brush/AlexBrush-Regular.ttf');
 }
 
-*{
-    font-family: alexbrush;
-    color: red;
-    
-} */
-
-
-body{
-    border: 1px solid red;
-    padding: 6px;
+body {
+    background-color: #eff8ff;
+    padding: 30px;
+    padding-left: 60px;
 }
 
-.covid-19{
-    font-weight: bold;
+div {
+    background-color: #ffffff;
+    width: 45%;
+    padding: 20px;
+    border: 3px solid #2998be;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px grey;
     font-style: italic;
-   
+    text-indent: 30px;
 }
 
-h1{
-    /* font-weight: normal; */
-    text-decoration: overline;
-    /* letter-spacing: 2em; */
-    /* text-indent: -20000px; */
+p {
+    font-family: alexbrush;
+    text-indent: 30px;
 }
 
-cite{
-    font-style: normal;
-    color: purple;
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2998be;
 }
 
-p{
-    text-transform: lowercase;    
-    text-transform: capitalize;
-    text-transform: uppercase;    
-    line-height: 2em;
-    /* word-spacing: 2em; */
-    text-align: left;
+p::first-line {
+    color: #ffa500;
 }
 
 a{
     text-decoration: none;
 }
-
-.new-heading{
-    font-size: 50px;
-   
+a:hover{
+    text-decoration: underline;
 }
 
-p{
-    text-transform: none;
-    text-indent: 50px;
-}
-
-
-
-h1{
-    color: red;
-    text-shadow: -3px -1px 4px pink;
-}
-
-p::first-letter{
-    font-size: 40px;
-    color: orange;    
-}
-
-p::first-line{
-    /* font-size: 40px; */
-    color: orange;  
-}
-
-a:visited {
-    color: pink !important;
-}
 
 a:link {
-    color: red !important;
+    color: blue
 }
-
-
-h1:hover{
-    color: #ffffff;
-    background-color: #ff0000;
-    cursor: pointer;
-    text-shadow: 3px 1px 4px pink;
-}
+a:visited {
+    color: pink;
+  }
 
 input:focus{
-    background-color: lightblue;
-    color: yellow;
-}
-
-button:active{
-    background-color:azure;
-    color:red;
-    border: 5px solid green;
+    border: 2px solid #000000;
 }
