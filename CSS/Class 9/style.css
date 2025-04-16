@@ -1,0 +1,101 @@
+/* @font-face {
+    font-family: alexbrush;
+    src: url("assets/fonts/alex-brush/AlexBrush-Regular.ttf");
+}
+
+*{
+    font-family: alexbrush;
+    color: red;
+    
+} */
+
+
+body{
+    border: 1px solid red;
+    padding: 6px;
+}
+
+.covid-19{
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+h1{
+    /* font-weight: normal; */
+    text-decoration: overline;
+    /* letter-spacing: 2em; */
+    /* text-indent: -20000px; */
+}
+
+cite{
+    font-style: normal;
+    color: purple;
+}
+
+p{
+    text-transform: lowercase;    
+    text-transform: capitalize;
+    text-transform: uppercase;    
+    line-height: 2em;
+    /* word-spacing: 2em; */
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+.new-heading{
+    font-size: 50px;
+   
+}
+
+p{
+    text-transform: none;
+    text-indent: 50px;
+}
+
+
+
+h1{
+    color: red;
+    text-shadow: -3px -1px 4px pink;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: orange;    
+}
+
+p::first-line{
+    /* font-size: 40px; */
+    color: orange;  
+}
+
+a:visited {
+    color: pink !important;
+}
+
+a:link {
+    color: red !important;
+}
+
+
+h1:hover{
+    color: #ffffff;
+    background-color: #ff0000;
+    cursor: pointer;
+    text-shadow: 3px 1px 4px pink;
+}
+
+input:focus{
+    background-color: lightblue;
+    color: yellow;
+}
+
+button:active{
+    background-color:azure;
+    color:red;
+    border: 5px solid green;
+}
