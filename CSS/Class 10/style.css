@@ -1,0 +1,22 @@
+input[type]{
+    border:1px solid green;
+}
+
+input[type="text"]{
+    font-weight: bold;
+}
+
+input[type="password"]{
+    background-color: yellow;
+}
+
+input[type="submit"]:active{
+    background-color: grey;
+    color: white;
+}
+
+
+
+p[class]{
+    color: green;
+}
