@@ -1,0 +1,72 @@
+
+
+/* h1, p, span{
+    border: 1px solid black;
+}
+div{
+    width: 500px;
+    height: 100px;
+}
+
+h1{
+    width: 50%;
+    height: 50%;
+}
+
+p{
+    width: 300px;
+    height: 100px;
+    overflow: hidden; 
+} */
+
+
+
+
+
+
+
+h1{
+    /* border: 1px solid black; */
+
+    /* border-width: 5px 1px;
+    border-style: dotted solid;
+    border-color: green black; */
+
+    /* border-bottom: 5px dashed green; */
+    /* border-top: 10px dotted green;
+    border-left: 10px dotted green;
+    border-right: 10px dotted green; */
+
+
+
+    /* border-width: 5px 1px 7px 10px;
+    border-style: dotted solid dashed double;
+    border-color: green black blue red; */
+
+    border:1px solid green;
+
+    border-bottom-width: 12px;
+    /* border-bottom-style: double;
+    border-bottom-color: green; */
+
+
+
+    /* margin: 20px 20px 50px 20px; */
+    /* margin-left:20px; */
+    /* margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px; */
+
+
+
+    /* text-align: center;
+    width: 40%;
+    margin: auto; */
+
+    /* padding: 20px 100px 50px 200px; */
+    padding-top: 20px;
+    /* padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+
