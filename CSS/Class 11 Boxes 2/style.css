@@ -1,0 +1,103 @@
+/* h1{
+    border: 1px solid red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+} */
+
+/* img{
+    border:1px solid red;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, p{
+    display: inline;
+}
+
+h1{
+    display: none;
+} */
+
+
+
+
+
+/* h1, span{
+    border: 1px solid red;
+    width: 350px;    
+    display: inline-block;
+} */
+
+
+
+
+
+
+
+/* h1{
+    visibility: hidden; 
+     visibility: visible;
+} */
+
+
+
+/* body{
+    padding: 10px;
+    color: red;
+
+    border: 50px solid pink;
+    border-image: url("images/heartborder.jpg") 40 40 40 40 stretch;
+} */
+
+
+
+/* 
+body{
+    padding: 10px;
+    border: 50px solid grey;
+    background-color: grey;
+    color: #ffffff;
+    border-image: url("images/skull.jpg") 40 40 40 40 stretch;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    padding: 10px;
+    border: 10px solid red;
+    box-shadow: inset 0 0 50px 50px pink;
+    /*
+        top left
+        top right
+        bottom right
+        bottom left
+    */   
+    /* border-radius: 50px 20px 180px 5px; */
+    border-radius: 50px 80px 100px 100px / 20px 100px 90px 100px;
+}
