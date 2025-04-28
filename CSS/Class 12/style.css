@@ -1,0 +1,79 @@
+
+
+/* ul, ol{
+    list-style-type: none;
+} */
+
+
+ul{
+    /* list-style-type: square; */
+    /* list-style-image: url("images/star.png"); */
+    /* list-style-position: inside; */
+    list-style: url("images/star.png") inside;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+table{    
+    font-family: Arial, Helvetica, sans-serif;
+    color:#111111;
+    width: 900px;
+    /* empty-cells: hide; */
+    /* border-collapse: collapse; */
+    /* border-spacing: 20px; */
+}
+
+th, td{    
+    /* padding: 10px;
+    padding-top: 7px; */
+    padding: 7px 10px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid  #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+.even{
+    background-color: #efefef;
+}
+tr:hover{
+    background-color:#c3e6e5;
+}
+
+td.money{
+    text-align: right;
+}
+
+
+
+
+.user-input{
+    /* border:1px solid red; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+input{
+    border-radius: 5px;
+}
+/* body{
+    cursor: url('images/myBall.cur'), auto;
+} */
+
+a{
+    cursor: url('images/star.png'), auto;
+}
+/* 
+h1{
+    cursor: pointer;
+} */
