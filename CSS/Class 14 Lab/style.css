@@ -1,25 +1,71 @@
-.container {
-    display: flex;    
-    margin-top: 70px;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0;
 }
 
-.container>div {
-    margin: auto 10px;    
-}
-
-.special{
-    position: relative;
-    top: 40px;
-    left: 20px;
-}
-
-ul{
+.nav-bar {    
     display: flex;
-    list-style-type: none;
-    width: 50%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
     position: fixed;
-    top:0;
-    left: 0;
-    background-color: gainsboro;
+    top: 0;
+    background-color: #fff;
+}
+
+.nav-bar>img {
+    width: 260px;
+    height: 65px;
+    margin-left: 20px;
+}
+
+.nav-bar>ul {
+    list-style-type: none;
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 26px;
+    color: #90c95e;
+}
+
+.nav-bar>ul>li>a {
+    color: #90c95e;
+    text-decoration: none;
+}
+
+.nav-bar>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.content{    
+    width: 70%;
+    margin: 150px auto;
+
+}
+
+.col img{
+    width: 25px;
+    height: 20px;
+    position: relative;
+    left: 70px;
+    top: -20px;
+}
+
+.content{
+    display: flex;
+}
+
+.col{
+    margin: auto 10px;
+}
+
+.chat img{
+    width: 50px;
+    height:50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
