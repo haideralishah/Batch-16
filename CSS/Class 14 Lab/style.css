@@ -1,0 +1,25 @@
+.container {
+    display: flex;    
+    margin-top: 70px;
+}
+
+.container>div {
+    margin: auto 10px;    
+}
+
+.special{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-evenly;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: gainsboro;
+}
