@@ -1,0 +1,43 @@
+.special {
+  color: red;
+  position: relative;
+  left: 50px;
+}
+
+.absolute-para {
+  color: green;
+  position: absolute;
+  top: 0;
+  /* background-color: white; */
+  z-index: -1000;
+}
+
+h2 {
+  /* background-color: #ffffff; */
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background-image: url("images/background-texture.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+} */
+
+body {
+  /* background-image: url("images/book\ rose.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background: url("images/book\ rose.gif") center right fixed no-repeat;
+}
